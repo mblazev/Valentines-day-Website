@@ -4,7 +4,7 @@ const CONFIG = {
   dateLabel: "February 14",
   planText: "dinner+ski date?",
   timeText: "9:00 AM",
-  noteText: "Wear something comfy & pretty (optional)",
+  noteText: "Wear something for maybe a ski date",
   noMessages: [
     "Are you suuuure? 😭",
     "Okay but like… think again 😅",
