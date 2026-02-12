@@ -1,9 +1,9 @@
 // ====== Customize these ======
 const CONFIG = {
-  herName: "Your Girlfriend",
+  herName: "Iva",
   dateLabel: "February 14",
-  planText: "Dinner + a walk + your favorite dessert",
-  timeText: "7:00 PM",
+  planText: "dinner+ski date?",
+  timeText: "9:00 AM",
   noteText: "Wear something comfy & pretty (optional)",
   noMessages: [
     "Are you suuuure? 😭",
