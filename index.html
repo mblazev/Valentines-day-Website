@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will you be my Valentine? 💘</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#ff4d6d" />
+</head>
+
+<body>
+  <div class="bg-hearts" aria-hidden="true"></div>
+
+  <main class="card" role="main">
+    <header class="top">
+      <div class="badge">💌 A message for <span id="herName">[Her Name]</span></div>
+      <h1>Will you be my Valentine? 💘</h1>
+      <p class="subtitle">
+        I made you a tiny website because you’re my favorite person.
+      </p>
+    </header>
+
+    <section class="gallery" aria-label="Photo gallery">
+      <figure class="polaroid tilt-1">
+        <img src="assets/photos/us1.jpg" alt="Photo 1" />
+        <figcaption>Us 🫶</figcaption>
+      </figure>
+      <figure class="polaroid tilt-2">
+        <img src="assets/photos/her1.jpg" alt="Photo 2" />
+        <figcaption>You 😍</figcaption>
+      </figure>
+      <figure class="polaroid tilt-3">
+        <img src="assets/photos/us2.jpg" alt="Photo 3" />
+        <figcaption>More us ✨</figcaption>
+      </figure>
+      <figure class="polaroid tilt-4">
+        <img src="assets/photos/her2.jpg" alt="Photo 4" />
+        <figcaption>Always you ❤️</figcaption>
+      </figure>
+    </section>
+
+    <section class="ask" aria-label="Valentine question">
+      <div class="prompt">
+        <p id="promptLine">
+          Be honest… will you be mine on <span id="dateLabel">February 14</span>?
+        </p>
+      </div>
+
+      <div class="buttons">
+        <button id="yesBtn" class="btn yes" type="button">Yes 💖</button>
+        <button id="noBtn" class="btn no" type="button">No 😅</button>
+      </div>
+
+      <p class="tiny-hint" id="tinyHint" aria-live="polite"></p>
+    </section>
+
+    <section id="success" class="success" hidden aria-label="Success message">
+      <div class="success-inner">
+        <h2>YAYYYYY! 🥳💞</h2>
+        <p>
+          Okay it’s official: you’re my Valentine.
+        </p>
+
+        <div class="details">
+          <div class="detail">
+            <div class="label">📍 Plan</div>
+            <div class="value" id="planText">Dinner + a walk + your favorite dessert</div>
+          </div>
+          <div class="detail">
+            <div class="label">🕖 Time</div>
+            <div class="value" id="timeText">7:00 PM</div>
+          </div>
+          <div class="detail">
+            <div class="label">💬 Note</div>
+            <div class="value" id="noteText">Wear something comfy & pretty (optional)</div>
+          </div>
+        </div>
+
+        <button id="confettiBtn" class="btn yes small" type="button">More confetti ✨</button>
+      </div>
+      <canvas id="confettiCanvas"></canvas>
+    </section>
+
+    <footer class="footer">
+      <span>Made with ❤️</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
